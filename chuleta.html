@@ -1,0 +1,18 @@
+![Debería ir o logo](logo.png)
+#  Chuleta para conectarse por ssh:
+1. Fabricamos unha parella de chaves público-privada:
+```
+ssh-keygen
+```
+1. Copiamos a chave **pública**
+1. Subímola a GitHub en Settings/SSH and GPG Keys
+1. Confirmamos que hai comunicación entre o terminal e GitHub:
+``` ssh -T git@github.com
+git remote set-url origin git@github.com:irocho/simple.git
+git remote -v
+```
+1. Subimos a nosa estupenda aportación:
+```
+git push
+```
+ Por suposto todo explicado en [i-rochiño](https://irocho.wordpress.com)
