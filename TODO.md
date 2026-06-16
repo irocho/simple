@@ -1,1 +1,1 @@
-subida a chave pública para SSH?
+facer limpeza
